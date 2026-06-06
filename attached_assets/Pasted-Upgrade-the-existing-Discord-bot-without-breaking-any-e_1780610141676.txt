@@ -1,0 +1,184 @@
+Upgrade the existing Discord bot without breaking any existing features.
+
+IMPORTANT:
+
+* Preserve all current commands and functionality.
+* Do not remove or rewrite existing working systems unless necessary.
+* Use Discord.js v14.
+* Use modular architecture.
+* Store all data in the existing database.
+* Add proper error handling.
+* Add logging for every new system.
+* Update README and package.json automatically.
+
+ADD THE FOLLOWING FEATURES:
+
+1. LEVELING SYSTEM
+
+* XP gained from messages
+* Level calculation
+* Rank progression
+* /rank command
+* /leaderboard command
+* XP cooldown to prevent farming
+* Level-up notifications
+* Rank card image generation
+
+2. ECONOMY SYSTEM
+
+* /balance
+* /daily
+* /work
+* /pay
+* /deposit
+* /withdraw
+* /shop
+* /inventory
+* Economy database
+* Configurable rewards
+
+3. DAILY REWARD SYSTEM
+
+* Daily claim tracking
+* Streak bonuses
+* Reward multipliers
+* Daily reminder support
+
+4. MUSIC SYSTEM
+
+* Lavalink support
+* /play
+* /pause
+* /resume
+* /skip
+* /stop
+* /queue
+* /nowplaying
+* /volume
+* /shuffle
+* /loop
+* Voice channel validation
+* Automatic disconnect when idle
+
+5. GIVEAWAY SYSTEM
+
+* /giveaway create
+* /giveaway end
+* /giveaway reroll
+* Time-based giveaways
+* Multiple winners
+* Reaction entry system
+
+6. REACTION ROLE SYSTEM
+
+* Create reaction role messages
+* Multiple role categories
+* Remove role on reaction removal
+
+7. STARBOARD SYSTEM
+
+* Automatic starboard channel
+* Configurable star threshold
+* Store starred messages
+
+8. AFK SYSTEM
+
+* /afk command
+* Mention notifications
+* AFK removal on activity
+
+9. CUSTOM EMBED BUILDER
+
+* /embed create
+* Title, description, image, footer support
+* Preview before sending
+* Permission checks
+
+10. CUSTOM COMMAND CREATOR
+
+* Admin-created commands
+* Store commands in database
+* Dynamic command execution
+* Permission controls
+
+11. SERVER BACKUP SYSTEM
+
+* Backup channels
+* Backup roles
+* Backup permissions
+* Backup server settings
+* Restore functionality
+
+12. AUTO QUOTE SYSTEM
+
+* Daily quote posting
+* Admin can set quote channel
+* /setquotechannel
+* /quote
+* Add/remove quotes
+* Scheduled posting every day
+
+13. AUTO POST SYSTEM
+
+* Scheduled announcements
+* Multiple schedules
+* Custom messages
+* Channel selection
+* Admin management commands
+
+14. CHANNEL MANAGEMENT SYSTEM
+
+* /createchannel
+* /deletechannel
+* /lockchannel
+* /unlockchannel
+* /renamechannel
+* /setwelcomechannel
+* /setlogchannel
+* /setannouncementchannel
+
+15. ADVANCED LOGGING
+
+* Join logs
+* Leave logs
+* Message delete logs
+* Message edit logs
+* Role update logs
+* Channel update logs
+* Moderation logs
+
+16. TEMPORARY VOICE CHANNELS
+
+* Auto-create voice channels
+* Auto-delete when empty
+* User ownership controls
+
+17. EVENT REMINDER SYSTEM
+
+* Scheduled reminders
+* Event announcements
+* Countdown messages
+
+18. SERVER STATISTICS SYSTEM
+
+* Member count channels
+* Bot count
+* Online count
+* Auto-update statistics
+
+19. ADMIN DASHBOARD PREPARATION
+
+* Separate API layer
+* Separate services layer
+* Dashboard-ready architecture
+
+After implementation:
+
+* Install all required dependencies.
+* Update database schema.
+* Register all slash commands.
+* Run full validation.
+* Fix all syntax errors.
+* Fix all dependency issues.
+* Ensure the bot starts successfully.
+* Generate a summary of all added commands and features.
